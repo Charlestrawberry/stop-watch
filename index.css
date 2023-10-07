@@ -1,0 +1,41 @@
+body{
+  background: linear-gradient(135deg, #aae4f3, #bff3aa);
+}
+
+.time-container {
+  width: 70%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(images/img.jpg);
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: #fff;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 20px 0;
+}
+ .time-container h1 { 
+  margin-top: 70px;
+  font-size: 100px;
+  font-weight: 800;
+}
+
+.spin {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.buttons {
+  align-items: center;
+  font-size: 39px; 
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 100px;
+  padding-bottom: 30px;
+} 
+.buttons, .fa-solid, .fa-regular{
+  cursor: pointer;
+}
+
+ 
